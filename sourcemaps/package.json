@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "npm run build && ava",
+    "build": "tsc"
+  },
+  "ava": {
+    "files": [
+      "build/**/*test.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "github:impaler/ava#snapshot-location",
+    "typescript": "2.4.1"
+  }
+}

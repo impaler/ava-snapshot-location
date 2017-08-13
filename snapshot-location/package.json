@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "src/**/*test.js"
+    ],
+    "snapshotLocation": "snapshot-fixtures"
+  },
+  "devDependencies": {
+    "ava": "github:impaler/ava#snapshot-location"
+  }
+}
