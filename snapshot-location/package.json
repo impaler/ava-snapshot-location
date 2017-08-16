@@ -6,7 +6,7 @@
     "files": [
       "src/**/*test.js"
     ],
-    "snapshotLocation": "snapshot-fixtures"
+    "snapshotDir": "snapshot-fixtures"
   },
   "devDependencies": {
     "ava": "github:impaler/ava#snapshot-location"
